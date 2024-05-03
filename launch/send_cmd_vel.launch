@@ -1,0 +1,7 @@
+<launch>
+    <!-- 启动robot -->
+    <node pkg="serialport" type="send_cmd_vel" name="send_cmd_vel" output="screen" />
+   
+    <!-- <node pkg="tf" type="static_transform_publisher" name="robot_base_link2map_broadcaster"  args="0 0 0 0 0 0 robot/base_link map  100" /> -->
+    <!-- <node pkg="tf" type="static_transform_publisher" name="robot_odom2map_broadcaster"  args="0 0 0 0 0 0 /map robot/odom 100" /> -->
+</launch>

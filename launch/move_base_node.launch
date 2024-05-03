@@ -1,0 +1,5 @@
+<launch>
+    <!-- 启动move_base_node自主导航 -->
+    <node pkg="serialport" type="move_base_node" name="move_base_node" output="screen" />
+   
+</launch>
